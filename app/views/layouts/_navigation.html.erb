@@ -2,12 +2,27 @@
   .navbar-default .navbar-nav > li > a {
     color: white;
     text-align: left;
-    margin-right: 5px;
-    padding-right: 3px;
+    margin-right: -4px;
+    padding-right: 0;
+
+}
+.navbar-default {
+    background-color: #1d2125;
+    border-color: #581616;
+}
+.navbar-default .navbar-nav > li > a:hover {
+ color: orange;
+}
+.nav li {
+  margin-left: 2px;
 
 }
 
+
 </style>
+
+
+
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -31,9 +46,10 @@
 
         <li><%= link_to "Study in Germany", studies_path %></li>
         <li><%= link_to "Universities in Germany", lists_path %></li>
-        <li><%= link_to "Tours ", tours_path %>
+        <li><%= link_to "Tours in Germany ", tours_path %>
+          <li><%= link_to "Team & Contacts ", about_path %>
 
-            <li><%= link_to "Contact us", new_article_path %></li>
+            <li><%#= link_to "Contact us", new_article_path %></li>
         </li><ul class="nav navbar-nav navbar-right">
         <% if logged_in? %>
           <li><%= link_to "Log out", logout_path, method: :delete %></li>
@@ -77,3 +93,9 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
+
+
+
+
+

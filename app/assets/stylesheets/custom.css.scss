@@ -11,7 +11,10 @@ $navbar-default-bg: black;
   letter-spacing: -1px;
   font-weight: bold;
 }
+ .container {
+        margin-top: 86px;
 
+  }
 #logo:hover {
   color: #fff;
   text-decoration: none;
@@ -22,7 +25,7 @@ $navbar-default-bg: black;
 }
 
 .jumbotron {
-  background-image: asset-url('cards.png');
+  background-image: asset-url('hospital.jpg');
   background-size: cover;
   height: 470px;
 }
@@ -104,4 +107,25 @@ footer ul li {
 
 .input_checkbox input {
   width: auto !important;
+}
+.alert-danger {
+
+    color: #383636;
+    margin-top: 61px;
+}
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #333333;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.2;
+    }
+
+.alert-success {
+    background-color: #99de7d;
+    border-color: #d6e9c6;
+    color: #333333;
+    margin-top: 61px;
 }

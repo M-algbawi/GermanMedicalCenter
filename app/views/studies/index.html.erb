@@ -12,6 +12,9 @@
     background-color: #d5e8cd;
     min-width: 500px;
 }
+.container {
+    margin-top: 5px;
+}
 
 /* Float four columns side by side */
 .column {
@@ -41,7 +44,6 @@
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
-  border-radius: 20%;
 }
 .card:hover {
   background-color: #eabd84;
@@ -94,12 +96,9 @@ img {
   margin-left: 40px;
 }
 
-a .btn{
-   margin: 0 auto;
-  display: block;
-  border-radius: 20px;
-  background-color:#366084;
-  width: 150px;
+a {
+
+  color: white;
 
 }
 
@@ -117,6 +116,12 @@ p {
 }
 h6 {
   text-align: center;
+}
+.center1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63px;
 }
 @media screen and (max-width: 600px) {
   .column {
@@ -146,7 +151,9 @@ h6 {
   <li>Enroll At Your University.</li>
 
 </ol>
-   <a href="tours"> <button class="btn btn-primary">Contact us</button> </a>
+   <div class="center1">
+    <button class="btn btn-primary"><%= link_to "Contact us", new_article_path %></button>
+  </div>
 </div>
 </div>
 
@@ -250,7 +257,9 @@ h6 {
   <li>Enroll At Your University.</li>
 
 </ol>
-   <a href="tours"> <button class="btn btn-primary">Contact us</button> </a>
+   <div class="center1">
+    <button class="btn btn-primary"><%= link_to "Contact us", new_article_path %></button>
+  </div>
 </div>
 </div>
 
@@ -262,7 +271,9 @@ h6 {
 <p>Finding a university and choosing a study program that suits your interests is the first step to planning your studies in Germany.</p><br>
 
 
-   <a href="tours"> <button class="btn btn-primary">Contact us</button> </a>
+   <div class="center1">
+    <button class="btn btn-primary"><%= link_to "Contact us", new_article_path %></button>
+  </div>
 </div>
 </div><br>
 
@@ -273,7 +284,9 @@ h6 {
 
 <p>Now that you have decided what university and what study program you want to attend you must check out all the requirements. For this purpose, you check the university website and their admission requirements section. If there are things you don’t understand never hesitate to contact the university directly.</p>
 <br>
-   <a href="tours"> <button class="btn btn-primary">Contact us</button> </a>
+   <div class="center1">
+    <button class="btn btn-primary"><%= link_to "Contact us", new_article_path %></button>
+  </div>
 </div>
 </div><br>
 
@@ -286,7 +299,9 @@ h6 {
 <p>Now that you have decided what university and what study program you want to attend you must check out all the requirements. For this purpose, you check the university website and their admission requirements section. If there are things you don’t understand never hesitate to contact the university directly.</p>
 <br>
 
-   <a href="tours"> <button class="btn btn-primary">Contact us</button> </a>
+   <div class="center1">
+    <button class="btn btn-primary"><%= link_to "Contact us", new_article_path %></button>
+  </div>
 </div>
 </div><br>
 
@@ -300,7 +315,9 @@ h6 {
 <p>An international student in Germany must possess a minimum of €10,236 which is estimated to be enough for a student to cover the cost of living for the first year of his studies. This amount of money needs to be deposited into a German blocked bank account.</p>
 <br>
 
-   <a href="tours"> <button class="btn btn-primary">Contact us</button> </a>
+   <div class="center1">
+    <button class="btn btn-primary"><%= link_to "Contact us", new_article_path %></button>
+  </div>
 </div>
 </div><br>
 
@@ -315,7 +332,9 @@ h6 {
 <p>Now that you have decided what university and what study program you want to attend you must check out all the requirements. For this purpose, you check the university website and their admission requirements section. If there are things you don’t understand never hesitate to contact the university directly.</p>
 <br>
 
-   <a href="tours"> <button class="btn btn-primary">Contact us</button> </a>
+   <div class="center1">
+    <button class="btn btn-primary"><%= link_to "Contact us", new_article_path %></button>
+  </div>
 </div>
 </div><br>
 <div class="grid-container">
@@ -328,7 +347,9 @@ h6 {
 <p></p>
 <br>
 
-   <a href="tours"> <button class="btn btn-primary">Contact us</button> </a>
+   <div class="center1">
+    <button class="btn btn-primary"><%= link_to "Contact us", new_article_path %></button>
+  </div>
 </div>
 </div><br>
 
@@ -340,7 +361,9 @@ h6 {
 <p></p>
 <br>
 
-   <a href="tours"> <button class="btn btn-primary">Contact us</button> </a>
+   <div class="center1">
+    <button class="btn btn-primary"><%= link_to "Contact us", new_article_path %></button>
+  </div>
 </div>
 </div><br>
 
@@ -367,6 +390,8 @@ To enroll at your university course in Germany you need to personally appear at 
 
 </ol>
 <a href="https://www.studying-in-germany.org/requirements-to-study-in-germany-for-indian-students/"><p>Check out all the requirements</p></a>
-   <a href="tours"> <button class="btn btn-primary">Contact us</button> </a>
+   <div class="center1">
+    <button class="btn btn-primary"><%= link_to "Contact us", new_article_path %></button>
+  </div>
 </div>
 </div><br>
