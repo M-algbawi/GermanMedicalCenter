@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 20200410140922) do
     t.datetime "updated_at"
     t.integer "user_id"
     t.string "sender"
+    t.integer "phone"
     t.string "email"
     t.float "number"
   end
