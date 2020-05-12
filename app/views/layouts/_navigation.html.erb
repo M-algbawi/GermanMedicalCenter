@@ -2,7 +2,7 @@
   .navbar-default .navbar-nav > li > a {
     color: white;
     text-align: left;
-    margin-right: -4px;
+    margin-right: 17px;
     padding-right: 0;
 
 }
@@ -17,6 +17,14 @@
   margin-left: 2px;
 
 }
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 3px;
+    padding-right: 0px;
+}
+
 </style>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -45,6 +53,7 @@
           <li><%= link_to "Team & Contacts ", about_path %>
 
             <li><%#= link_to "Contact us", new_article_path %></li>
+
         </li><ul class="nav navbar-nav navbar-right">
         <% if logged_in? %>
           <li><%= link_to "Log out", logout_path, method: :delete %></li>
@@ -79,7 +88,6 @@
           </ul>
         </li>
       </ul>
-
 
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
